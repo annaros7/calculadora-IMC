@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <h1>Calcule sua massa corporal</h1>
+    <div>
+        <!--placeholder funciona como um value, mas assim consigo personaliza-lo-->
+        <input type="number" value="" placeholder="Insira seu peso (kg)" id="peso">
+        <!--<input type="button" class="seta">-->
+    </div>
+    
+    <div>
+        <input type="number" value="" placeholder="Insira sua altura (m)" id="altura">
+        <!--<input type="button" class="seta">-->
+    </div>
+    
+    <!--<img src="imagens/img.png" alt="prancheta colorida">-->
+
+    <input type="button" value="Calcular" id="calcular">
+
+    <div id="res">
+        Resultado
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
