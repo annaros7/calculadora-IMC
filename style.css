@@ -1,0 +1,141 @@
+body
+{
+    background: #FCD7AC;
+    margin: 50px;
+}
+
+/* tira as bordas do input*/
+textarea:focus, input:focus {
+    box-shadow: 0;
+    outline: none;
+}
+/* tira as setas do input tipo number*/
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+section
+{
+    background: #F8F8F8;
+
+    margin: auto;
+    padding: 0;
+    width: 700px;
+
+    border-radius: 50px;
+
+    box-shadow: #00000036 2px 5px 10px 2px;
+    
+    text-align: center;
+    color: white;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    font: bold 30pt Arial;
+    color: #B2B0F7;
+    text-shadow: #bf33ee5c 2px 2px 4px;
+    
+    margin-top: 35px;
+}
+
+#peso
+{
+    background: rgba(255, 196, 231, 0.566);
+
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+
+    color: #9998D7;
+
+    text-align: center;
+    font-size: 35px;
+
+    margin-bottom: 40px;
+
+    box-shadow: #ac3c8c6d 3px 3px 5px 2px;
+}
+
+#altura
+{
+    background: rgba(255, 196, 231, 0.566);
+
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+
+    color: #9998D7;
+
+    text-align: center;
+    font-size: 35px;
+
+    box-shadow: #ac3c8c6d 3px 3px 5px 2px;
+
+    margin-bottom: 40px;
+}
+
+::-webkit-input-placeholder 
+{
+    color: #9998D7; /* altera a cor do placeholder*/
+}
+
+.seta
+{
+    border: none;
+    border-radius: 30px;
+
+    background: #B2B0F7;
+
+    width: 60px;
+    height: 60px;
+
+    box-shadow: inset #ac3c8c46 2px 2px 15px 5px;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 50px;
+
+}
+
+#calcular
+{
+    background: #B2B0F7;
+    color: white;
+
+    width: 300px;
+    padding: 25px;
+    margin: auto;
+
+    font: normal 50px Arial;
+
+    border: none;
+    border-radius: 100px;
+
+    box-shadow: #4323966d 3px 3px 5px 2px;
+    text-shadow: #4323966d 3px 3px 5px 2px;
+}
+
+#res
+{
+    padding: 5px;
+
+    color: #9998D7;
+    font: normal 5px Arial;
+
+    text-align: center;
+    font-size: 35px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
